@@ -50,4 +50,8 @@ process.on('SIGTERM', () => {
   });
 });
 
+connect();
+
+//bring in the Monggose Schema
 require('./travlr');
+require('./user');
